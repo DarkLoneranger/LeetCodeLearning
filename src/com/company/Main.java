@@ -1,16 +1,14 @@
 package com.company;
 
 
-import com.company.Easy.Easy_1_twoSum;
+import com.company.Easy.Easy_2_ReverseInteger;
+import com.company.Medium.Medium_1_3Sum;
 
 public class Main {
 
 
     public static void main(String[] args) {
-        int[] nums = {2, 7, 11, 15};
-        int target = 9;
-        int[] outNums = Easy_1_twoSum.twoSum_2(nums, target);
-        System.out.println("["+outNums[0]+","+outNums[1]+"]");
+        System.out.println(Easy_2_ReverseInteger.reverse(1534236469));
     }
 
 
