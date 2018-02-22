@@ -17,7 +17,7 @@ package com.company.Easy;
  * signed integer range. For the purpose of this problem, assume that your function returns 0
  * when the reversed integer overflows.
  */
-public class Easy_2_ReverseInteger {
+public class Easy_7_ReverseInteger {
     public static int reverse(int num) {
         int scale = 0;
         if (num > 0) {

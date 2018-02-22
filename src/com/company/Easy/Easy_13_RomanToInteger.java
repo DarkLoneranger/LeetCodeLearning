@@ -15,7 +15,7 @@ package com.company.Easy;
  * If X comes before L or C, subtract 10 eg: XL = 40 and XC = 90
  * If C comes before D or M, subtract 100 eg: CD = 400 and CM = 900
  */
-public class Easy_4_RomanToInteger {
+public class Easy_13_RomanToInteger {
 
     public static int romanToInt(String s) {
         char[] chars = s.toCharArray();

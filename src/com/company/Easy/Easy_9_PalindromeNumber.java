@@ -10,7 +10,7 @@ import java.util.ArrayList;
  you know that the reversed integer might overflow. How would you handle such case?
  There is a more generic way of solving this problem.
  */
-public class Easy_3_PalindromeNumber {
+public class Easy_9_PalindromeNumber {
     public static boolean isPalindrome(int x) {
         if (x<0) return false;  //所有的负数都不能归为回文数字
         ArrayList<Integer> integers = new ArrayList<>();
